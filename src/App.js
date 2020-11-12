@@ -1,5 +1,5 @@
 import logo from './img/IMG_2184.png';
-import background from './img/IMG_2186.png';
+import background from './img/IMG_2186.jpg';
 import './App.css';
 
 function App() {
