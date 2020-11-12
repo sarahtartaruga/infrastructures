@@ -6,7 +6,6 @@ function App() {
   return (
     <div className="App">
       <header className="App-header" style={{backgroundImage: `url(${background})`}}>
-        <img src={logo} className="App-logo" alt="logo" />
         <p className="p-title">
           SURVEILLANCE CULTURES INFRASTRUCTURES
         </p>
