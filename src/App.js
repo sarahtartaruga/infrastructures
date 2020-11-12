@@ -7,8 +7,8 @@ function App() {
     <div className="App">
       <header className="App-header" style={{backgroundImage: `url(${background})`}}>
         <img src={logo} className="App-logo" alt="logo" />
-        <p>
-          Surveillance cultures - infrastructures
+        <p className="p-title">
+          SURVEILLANCE CULTURES INFRASTRUCTURES
         </p>
       </header>
     </div>
