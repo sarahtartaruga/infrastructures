@@ -23,7 +23,10 @@ class App extends React.Component {
       <div className="App" style={{ backgroundImage: `url(${background})` }}>
         <div className="wrapper">
           <div id="box1" className="box">
-            <div className="box-items" style={{ backgroundImage: `url(${cmflg1})` }}>
+            <div
+              className="box-items"
+              style={{ backgroundImage: `url(${cmflg1})` }}
+            >
               <p className="title"> Burrington </p>
               <p className="box-text"> Bland Temples </p>
               <p className="box-text"> Surveillance Aesthetics </p>
@@ -52,7 +55,10 @@ class App extends React.Component {
           </div>
 
           <div id="box3" className="box">
-            <div className="box-items" style={{ backgroundImage: `url(${cmflg2})` }}>
+            <div
+              className="box-items"
+              style={{ backgroundImage: `url(${cmflg2})` }}
+            >
               <p className="title"> Rogers and Eden </p>
               <p className="box-text"> Power of Standards </p>
               <p className="box-text"> Role of Intelligence Agencies </p>
@@ -81,25 +87,28 @@ class App extends React.Component {
             </a>
           </div>
           <div id="box5" className="box">
-          <div className="box-items" >
-            <p className="title"> Surveillance Cultures: Infrastructures </p>
-            <p className="box-text"> Societies of Control </p>
-            <p className="box-text"> Surveillant Assemblage </p>
-            <p className="box-text"> Surveillance Culture </p>
-          </div>
+            <div className="box-items">
+              <p className="title"> Surveillance Cultures: Infrastructures </p>
+              <p className="box-text"> Societies of Control </p>
+              <p className="box-text"> Surveillant Assemblage </p>
+              <p className="box-text"> Surveillance Culture </p>
+            </div>
           </div>
           <div id="box6" className="box">
             <iframe
               width="560"
               height="315"
-              src="https://www.youtube.com/watch?v=bs3Et540-_s"
+              src="https://www.youtube-nocookie.com/embed/bs3Et540-_s"
               frameborder="0"
               allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture"
               allowfullscreen
             ></iframe>
           </div>
           <div id="box7" className="box">
-            <div className="box-items" style={{ backgroundImage: `url(${cmflg3})` }}>
+            <div
+              className="box-items"
+              style={{ backgroundImage: `url(${cmflg3})` }}
+            >
               <p className="title"> Gekker and Knight </p>
               <p className="box-text"> Decentralisation </p>
               <p className="box-text"> Datafication </p>
@@ -130,7 +139,10 @@ class App extends React.Component {
             </a>
           </div>
           <div id="box9" className="box">
-            <div className="box-items" style={{ backgroundImage: `url(${cmflg4})` }}>
+            <div
+              className="box-items"
+              style={{ backgroundImage: `url(${cmflg4})` }}
+            >
               <p className="title"> Sandvig </p>
               <p className="box-text"> Internet Infrastructure </p>
               <p className="box-text"> Collision </p>
