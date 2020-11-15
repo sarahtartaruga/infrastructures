@@ -137,6 +137,8 @@ class App extends React.Component {
               >
                 <p className="title"> Gekker and Knight </p>
               </a>
+              <p className="box-text"> Interfacial Regime </p>
+              <p className="box-text"> Control </p>
               <p className="box-text"> Decentralisation </p>
               <p className="box-text"> Datafication </p>
               <p className="box-text"> Platformisation </p>
