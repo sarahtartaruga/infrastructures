@@ -125,7 +125,11 @@
 
   .video {
     width: 650;
-    height: auto;
+    height: 300;
+  }
+
+  .box {
+    width: 100vw;
   }
 
   #box1 {
