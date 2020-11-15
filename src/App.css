@@ -98,12 +98,12 @@
   overflow: scroll;
 }
 
-#box2 {
+#box4 {
   display: inline-block;
   overflow: scroll;
 }
 
-#box8 {
+#box6 {
   display: inline-block;
   overflow: scroll;
 }
@@ -128,4 +128,59 @@
   flex-direction: column;
   position: relative;
   overflow: scroll;
+}
+
+@media only screen and (max-width: 768px) {
+  /* For mobile phones: */
+  .wrapper {
+    display: grid;
+    grid-template-columns: repeat(1,1fr);
+    grid-auto-rows: minmax(30vh, auto);
+    height: auto;
+    width: 100%;
+  }
+
+  .App {
+    height: 100%;
+    background-size: cover;
+    background-attachment: fixed;
+  }
+
+  #box1 {
+    order: 2;
+  }
+
+  #box2 {
+    order: 3;
+  }
+
+  #box3 {
+    order: 4;
+  }
+
+  #box4 {
+    order: 9;
+  }
+
+  #box5 {
+    order: 1;
+  }
+
+  #box6 {
+    order: 5;
+  }
+
+  #box7 {
+    order: 8;
+  }
+
+  #box8 {
+    order: 7;
+  }
+
+  #box9 {
+    order: 6;
+  }
+
+
 }

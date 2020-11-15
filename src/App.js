@@ -40,17 +40,16 @@ class App extends React.Component {
           </div>
 
           <div id="box2" className="box">
-            <img
-              className="box-image"
-              src={so}
-              alt="Standard organisations participants"
-            />
             <a
-              href="https://core.ac.uk/download/pdf/161893186.pdf"
+              href="https://www.google.com/maps/place/410+National+Business+Pkwy,+Annapolis+Junction,+MD+20701,+USA/@39.134935,-76.7697111,1142m/data=!3m1!1e3!4m5!3m4!1s0x89b7e6d1d529fbab:0x7e75297c4fb8327b!8m2!3d39.1346854!4d-76.7684558?hl=en"
               target="_blank"
               rel="noreferrer"
             >
-              <img className="box-image" src={re} alt="Rogers Eden" />
+              <img
+                className="box-image"
+                src={nbp}
+                alt="National Business Park"
+              />
             </a>
           </div>
 
@@ -73,19 +72,24 @@ class App extends React.Component {
               <p className="box-text"> Vulnerabilities </p>
             </div>
           </div>
+
           <div id="box4" className="box">
             <a
-              href="https://www.google.com/maps/place/410+National+Business+Pkwy,+Annapolis+Junction,+MD+20701,+USA/@39.134935,-76.7697111,1142m/data=!3m1!1e3!4m5!3m4!1s0x89b7e6d1d529fbab:0x7e75297c4fb8327b!8m2!3d39.1346854!4d-76.7684558?hl=en"
+              href="https://uvaauas.figshare.com/articles/ICM_Interfacial_Regime_apendix_2_Map_pdf/12315218/1"
               target="_blank"
               rel="noreferrer"
             >
-              <img
-                className="box-image"
-                src={nbp}
-                alt="National Business Park"
-              />
+              <div className="box-image-wrapper">
+                <img className="box-image" src={icm1} alt="ICM1" />
+                <img className="box-image" src={icm2} alt="ICM2" />
+                <img className="box-image" src={table1} alt="table1" />
+                <img className="box-image" src={icm3} alt="ICM3" />
+                <img className="box-image" src={table2} alt="table2" />
+                <img className="box-image" src={kg} alt="knight-gekker" />
+              </div>
             </a>
           </div>
+
           <div id="box5" className="box">
             <div className="box-items">
               <p className="title"> Surveillance Cultures: Infrastructures </p>
@@ -94,16 +98,22 @@ class App extends React.Component {
               <p className="box-text"> Surveillance Culture </p>
             </div>
           </div>
+
           <div id="box6" className="box">
-            <iframe
-              width="560"
-              height="315"
-              src="https://www.youtube-nocookie.com/embed/bs3Et540-_s"
-              frameborder="0"
-              allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture"
-              allowfullscreen
-            ></iframe>
+            <img
+              className="box-image"
+              src={so}
+              alt="Standard organisations participants"
+            />
+            <a
+              href="https://core.ac.uk/download/pdf/161893186.pdf"
+              target="_blank"
+              rel="noreferrer"
+            >
+              <img className="box-image" src={re} alt="Rogers Eden" />
+            </a>
           </div>
+
           <div id="box7" className="box">
             <div
               className="box-items"
@@ -122,22 +132,19 @@ class App extends React.Component {
               <p className="box-text"> Who Decides?</p>
             </div>
           </div>
+
           <div id="box8" className="box">
-            <a
-              href="https://uvaauas.figshare.com/articles/ICM_Interfacial_Regime_apendix_2_Map_pdf/12315218/1"
-              target="_blank"
-              rel="noreferrer"
-            >
-              <div className="box-image-wrapper">
-                <img className="box-image" src={icm1} alt="ICM1" />
-                <img className="box-image" src={icm2} alt="ICM2" />
-                <img className="box-image" src={table1} alt="table1" />
-                <img className="box-image" src={icm3} alt="ICM3" />
-                <img className="box-image" src={table2} alt="table2" />
-                <img className="box-image" src={kg} alt="knight-gekker" />
-              </div>
-            </a>
+            <iframe
+              width="560"
+              height="315"
+              title="Data Center"
+              src="https://www.youtube-nocookie.com/embed/bs3Et540-_s"
+              frameborder="0"
+              allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture"
+              allowfullscreen
+            ></iframe>
           </div>
+
           <div id="box9" className="box">
             <div
               className="box-items"
