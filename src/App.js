@@ -29,7 +29,13 @@ class App extends React.Component {
               className="box-items"
               style={{ backgroundImage: `url(${cmflg1})` }}
             >
-              <p className="title"> Burrington </p>
+              <a
+                href="https://creativetimereports.org/2014/01/07/the-architecture-of-surveillance/"
+                target="_blank"
+                rel="noreferrer"
+              >
+                <p className="title"> Burrington </p>
+              </a>
               <p className="box-text"> Bland Temples </p>
               <p className="box-text"> Surveillance Aesthetics </p>
               <p className="box-text"> Invisibility </p>
@@ -60,7 +66,13 @@ class App extends React.Component {
               className="box-items"
               style={{ backgroundImage: `url(${cmflg2})` }}
             >
-              <p className="title"> Rogers and Eden </p>
+              <a
+                href="https://core.ac.uk/download/pdf/161893186.pdf"
+                target="_blank"
+                rel="noreferrer"
+              >
+                <p className="title"> Rogers and Eden </p>
+              </a>
               <p className="box-text"> Power of Standards </p>
               <p className="box-text"> Role of Intelligence Agencies </p>
               <p className="box-text"> Snowden </p>
@@ -93,7 +105,10 @@ class App extends React.Component {
           </div>
 
           <div id="box5" className="box">
-            <div className="box-items" style={{ backgroundImage: `url(${cmflg6})` }}>
+            <div
+              className="box-items"
+              style={{ backgroundImage: `url(${cmflg6})` }}
+            >
               <p className="title"> Surveillance Cultures: Infrastructures </p>
               <p className="box-text"> Societies of Control </p>
               <p className="box-text"> Surveillant Assemblage </p>
@@ -107,13 +122,7 @@ class App extends React.Component {
               src={so}
               alt="Standard organisations participants"
             />
-            <a
-              href="https://core.ac.uk/download/pdf/161893186.pdf"
-              target="_blank"
-              rel="noreferrer"
-            >
-              <img className="box-image" src={re} alt="Rogers Eden" />
-            </a>
+            <img className="box-image" src={re} alt="Rogers Eden" />
           </div>
 
           <div id="box7" className="box">
@@ -121,7 +130,13 @@ class App extends React.Component {
               className="box-items"
               style={{ backgroundImage: `url(${cmflg5})` }}
             >
-              <p className="title"> Gekker and Knight </p>
+              <a
+                href="https://www.academia.edu/43537554/Knight_and_Gekker_2020_Mapping_Interfacial_Regimes_of_Control_Palantirs20200707_53602_182s4d1"
+                target="_blank"
+                rel="noreferrer"
+              >
+                <p className="title"> Gekker and Knight </p>
+              </a>
               <p className="box-text"> Decentralisation </p>
               <p className="box-text"> Datafication </p>
               <p className="box-text"> Platformisation </p>
@@ -153,7 +168,13 @@ class App extends React.Component {
               className="box-items"
               style={{ backgroundImage: `url(${cmflg4})` }}
             >
-              <p className="title"> Sandvig </p>
+              <a
+                href="http://www-personal.umich.edu/~csandvig/research/Sandvig_The_Internet_as_Infrastructure.pdf"
+                target="_blank"
+                rel="noreferrer"
+              >
+                <p className="title"> Sandvig </p>
+              </a>
               <p className="box-text"> Internet Infrastructure </p>
               <p className="box-text"> Collision </p>
               <p className="box-text"> Turtles All The Way Down </p>
