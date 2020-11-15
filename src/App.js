@@ -4,15 +4,17 @@ import cmflg1 from "./img/camouflage1.jpeg";
 import cmflg2 from "./img/camouflage2.jpeg";
 import cmflg3 from "./img/camouflage3.jpeg";
 import cmflg4 from "./img/camouflage4.jpeg";
+import cmflg5 from "./img/camouflage5.jpeg";
+import cmflg6 from "./img/camouflage6.jpeg";
 import nbp from "./img/national-business-park.png";
-import icm1 from "./img/icm1.png";
-import icm2 from "./img/icm2.png";
-import icm3 from "./img/icm3.png";
-import table1 from "./img/table1.png";
-import table2 from "./img/table2.png";
-import kg from "./img/knight-gekker.png";
-import so from "./img/standard-organisations.png";
-import re from "./img/rogers-eden.png";
+import icm1 from "./img/icm1-bw.png";
+import icm2 from "./img/icm2-bw.png";
+import icm3 from "./img/icm3-bw.png";
+import table1 from "./img/table1-bw.png";
+import table2 from "./img/table2-bw.png";
+import kg from "./img/knight-gekker-bw.png";
+import so from "./img/standard-organisations-bw.png";
+import re from "./img/rogers-eden-bw.png";
 
 import ReactPlayer from "react-player";
 import "./App.css";
@@ -91,7 +93,7 @@ class App extends React.Component {
           </div>
 
           <div id="box5" className="box">
-            <div className="box-items">
+            <div className="box-items" style={{ backgroundImage: `url(${cmflg6})` }}>
               <p className="title"> Surveillance Cultures: Infrastructures </p>
               <p className="box-text"> Societies of Control </p>
               <p className="box-text"> Surveillant Assemblage </p>
@@ -117,7 +119,7 @@ class App extends React.Component {
           <div id="box7" className="box">
             <div
               className="box-items"
-              style={{ backgroundImage: `url(${cmflg3})` }}
+              style={{ backgroundImage: `url(${cmflg5})` }}
             >
               <p className="title"> Gekker and Knight </p>
               <p className="box-text"> Decentralisation </p>
