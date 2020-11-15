@@ -10,12 +10,18 @@ class App extends React.Component {
 
   render() {
     return (
-      <div className="App">
-        <header className="App-header" style={{backgroundImage: `url(${background})`}}>
-          <p className="p-title">
-            SURVEILLANCE CULTURES INFRASTRUCTURES
-          </p>
-        </header>
+      <div className="App"  style={{backgroundImage: `url(${background})`}}>
+      <div class="wrapper">
+      <div id="box1" class="box"><p>One</p></div>
+      <div id="box2" class="box">Two</div>
+      <div id="box3" class="box">Three</div>
+      <div id="box4" class="box">Four</div>
+      <div id="box5" class="box">Five</div>
+      <div id="box6" class="box">Six</div>
+      <div id="box7" class="box">Seven</div>
+      <div id="box8" class="box">Eight</div>
+      <div id="box9" class="box">Nine</div>
+      </div>
       </div>
     );
   }
