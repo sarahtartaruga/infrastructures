@@ -50,6 +50,9 @@ a {
   overflow: hidden;
   padding: 2%;
   position: relative;
+  border-style: solid;
+  border-color: black;
+  border-width: medium;
 }
 
 .box-image {
