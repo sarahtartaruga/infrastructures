@@ -60,20 +60,31 @@
 }
 
 .box {
-  border-color: red;
-  border-width: 2px;
-  border-style: solid;
+
   display: flex;
   width: 100%;
   align-items: center;
   justify-content: center;
   background-size: cover;
   overflow: hidden;
-
+  padding: 1%;
 }
 
 .box-image {
   width: 100%;
+}
+
+.box-image-wrapper {
+  overflow: scroll;
+}
+#box2 {
+  display: inline-block;
+  overflow: scroll;
+}
+
+#box8 {
+  display: inline-block;
+  overflow: scroll;
 }
 
 .box-empty {
