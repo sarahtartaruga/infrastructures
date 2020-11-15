@@ -112,6 +112,9 @@ class App extends React.Component {
               <p className="title"> Surveillance Cultures: Infrastructures </p>
               <p className="box-text"> Societies of Control </p>
               <p className="box-text"> Surveillant Assemblage </p>
+              <p className="box-text"> Protological Control </p>
+              <p className="box-text"> Surveillance Capitalism </p>
+              <p className="box-text"> Surveillance Society </p>
               <p className="box-text"> Surveillance Culture </p>
             </div>
           </div>
