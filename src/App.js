@@ -135,13 +135,14 @@ class App extends React.Component {
 
           <div id="box8" className="box">
             <iframe
+              className="video"
               width="560"
               height="315"
               title="Data Center"
               src="https://www.youtube-nocookie.com/embed/bs3Et540-_s"
-              frameborder="0"
+              frameBorder="0"
               allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture"
-              allowfullscreen
+              allowFullScreen
             ></iframe>
           </div>
 
