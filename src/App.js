@@ -75,15 +75,18 @@ class App extends React.Component {
               </a>
               <p className="box-text"> Power of Standards </p>
               <p className="box-text"> Role of Intelligence Agencies </p>
+              <p className="box-text"> Trustworthiness </p>
               <p className="box-text"> Snowden </p>
+              <p className="box-text"> HRPC </p>
               <p className="box-text"> Digital Citizenship </p>
               <p className="box-text"> Governing Infrastructure </p>
-              <p className="box-text"> Negotiation </p>
+              <p className="box-text"> Group Dynamics </p>
               <p className="box-text"> Who Participates? </p>
               <p className="box-text"> Transparency </p>
               <p className="box-text"> Openness </p>
-              <p className="box-text"> Democracy </p>
               <p className="box-text"> Vulnerabilities </p>
+              <p className="box-text"> Lawful Intercept Surveillance</p>
+              <p className="box-text"> Backdoors </p>
             </div>
           </div>
 
