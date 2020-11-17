@@ -113,6 +113,9 @@ class App extends React.Component {
               style={{ backgroundImage: `url(${cmflg6})` }}
             >
               <p className="title"> Surveillance Cultures: Infrastructures </p>
+              <p className="box-text"> Panopticon </p>
+              <p className="box-text"> Banopticon </p>
+              <p className="box-text"> Biopolitics and Biopower </p>
               <p className="box-text"> Societies of Control </p>
               <p className="box-text"> Surveillant Assemblage </p>
               <p className="box-text"> Protological Control </p>
@@ -147,14 +150,16 @@ class App extends React.Component {
               <p className="box-text"> Control </p>
               <p className="box-text"> Decentralisation </p>
               <p className="box-text"> Datafication </p>
+              <p className="box-text"> Dataveillance </p>
               <p className="box-text"> Platformisation </p>
               <p className="box-text"> Interfacialisation </p>
+              <p className="box-text"> Mediation of Meaning </p>
+                <p className="box-text"> Dynamism </p>
               <p className="box-text"> Surface </p>
               <p className="box-text"> Visibility </p>
               <p className="box-text"> Private In The Public </p>
               <p className="box-text"> Data Doubles </p>
               <p className="box-text"> Depersonalisation </p>
-              <p className="box-text"> Who Decides?</p>
             </div>
           </div>
 
